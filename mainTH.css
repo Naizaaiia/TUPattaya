@@ -1,3 +1,4 @@
+
 /* manu bar */
 body{
   font-family: 'Roboto', Arial, Sans-serif;
@@ -18,26 +19,28 @@ body{
 }
 .langTH
 {
+  float: right;
   background-size: 100% 100%;
-  margin-left: 850px;
-  margin-top: -70px;
 }
 .langEN
 {
+  float: right;
   background-size: 100% 100%;
-  margin-left: 60px;
-  margin-top: -30px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 h6
 {
+  float: left;
   margin-left: 110px;
-  margin-top: -25px;
+  margin-top: -60px;
   font-size: 20px;
 }
 .ma
 {
+  float: left;
   margin-left: 110px;
-  margin-top: 3px;
+  margin-top: -30px;
   font-size: 15px;
   color:#B22222;
 }
@@ -47,42 +50,60 @@ a:hover
   text-shadow:0px 0px 20px;
   text-decoration: none;
 }
+
+.related
+{
+  float: right;
+  margin-left: 13px;
+  margin-right: 50px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px Gold solid;
+  padding-bottom: 3px;
+}
+
 .selected
 {
-  margin-left: 550px;
+  float: right;
+  margin-left: 13px;
+  margin-right: 50px;
   font-size: 15px;
-  color:#B22222;
-  text-shadow:0px 0px 20px;
+  color: black;
   text-decoration: none;
   border-bottom: 3px Gold solid;
   padding-bottom: 3px;
 }
 .nav
 {
-  margin-left: 15px;
-  margin-right: -3px;
-  color:black;
-  text-decoration: none;
+  float: right;
+  margin-left: 13px;
+  margin-right: 3px;
   font-size: 15px;
+  color: black;
+  text-decoration: none;
   border-bottom: 3px Gold solid;
   padding-bottom: 3px;
 }
 .navi
 {
-  margin-left: 3px;
-  margin-right: -10px;
-  color:black;
+  float: right;
+  margin-left: 13px;
+  margin-right: 3px;
+  color:#B22222;
   text-decoration: none;
-  text-shadow:0px 0px 0px;
   font-size: 15px;
   border-bottom: 3px Gold solid;
   padding-bottom: 2px;
 }
 
+li {
+  float: right;
+}
+
 li a, .dropbtn {
     display: inline-block;
     color:black;
-    padding: 14px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -97,6 +118,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: white;
+    margin-top: 20px;
     z-index: 1;
   
 }
@@ -306,5 +328,4 @@ body .ui_box:hover {
     width: 100%;
     height: auto;
 }
-
 /* End Text box */
