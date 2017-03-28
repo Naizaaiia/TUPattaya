@@ -68,7 +68,7 @@ a:hover
   float: right;
   margin-left: 13px;
   margin-right: 50px;
-  font-size: 12px;
+  font-size: 15px;
   color: black;
   text-decoration: none;
   border-bottom: 3px Gold solid;
@@ -79,7 +79,7 @@ a:hover
   float: right;
   margin-left: 13px;
   margin-right: 3px;
-  font-size: 12px;
+  font-size: 15px;
   color: black;
   text-decoration: none;
   border-bottom: 3px Gold solid;
@@ -92,7 +92,7 @@ a:hover
   margin-right: 3px;
   color:#B22222;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
   border-bottom: 3px Gold solid;
   padding-bottom: 2px;
 }
@@ -110,7 +110,6 @@ li.dropdown {
     display: inline-block;
     float: right;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -123,7 +122,7 @@ li.dropdown {
 .dropdown-content a {
     color: red;
     padding: 12px;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     display: block;
     color:black;
@@ -229,26 +228,26 @@ ul, ol {
 /* Text box */
 
 body .ui {
-  width: 900px;
+  width: 70%;
+  float: center;
   margin: 0 auto;
   margin-top: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  box-shadow: none;
 }
 body .ui ul {
   margin: 0px 30px 10px 0px;
   padding: 0;
   list-style-type: none;
   font-size: 11px;
-  font-weight: 400;
-  line-height: 20px;
+  font-weight: 100%;
+  line-height: 100%;
 }
 body .ui .drop {
   z-index: -3;
   opacity: 0;
-  width: 240px;
-  height: 20px;
+  width: 60%;
+  height: 60%;
   background: #3e8368;
   position: absolute;
   color: white;
@@ -263,8 +262,8 @@ body .ui .drop p {
   color: #f8fbfa;
 }
 body .ui_box {
-  width: 300px;
-  height:450px;
+  width: 100%;
+  height:70%;
   position: relative;
   background: #3d3d3d;
   float: left;
@@ -293,12 +292,12 @@ body .ui_box h2 {
   margin: 0px 0px 0px 0px;
 }
 body .ui_box p {
-  font-size: 12px;
+  font-size: 15px;
   color: #b6b6b6;
   text-align: center;
-  font-weight: 230;
-  width: 240px;
-  margin: 0px 0px 0px 0px;
+  font-weight: 230px;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
 }
 body .ui_box:hover {
   background: #B22222;
@@ -321,8 +320,13 @@ body .ui_box:hover {
 .stat_left {
   float: left;
 }
-.galleryBox {
-    width: 100%;
-    height: auto;
+.map{
+  height:100%;
+  float:left;
+  width:95%;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
 }
+  
 /* End Text box */

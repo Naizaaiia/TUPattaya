@@ -168,19 +168,19 @@ ul, ol {
     background-size: cover;
 }
 .slider .slider-ul .slider-ul-li:first-of-type, .slider .slider-ul .slider-ul-li:last-of-type {
-    background-image: url(http://www.siammotors.com/uploads/gallery/17/1456298217.jpg)
+    background-image: url(https://lh6.googleusercontent.com/jUt9Uo-E630Zw5tuKXeUP1Pu1kHmQLFMLA3Ttrjm6zSb6Td_i_sF2mwfaaHLRrwwtIXb398wLxWpIt8=w2316-h1344)
 }
 .slider .slider-ul .slider-ul-li:nth-of-type(2) {
-    background-image: url(http://www.admissionpremium.com/uploads/contents/20160602124944.jpg)
+    background-image: url(https://lh6.googleusercontent.com/jm6cXGAKt5-3df7UIzmJYqbc0RS_hiVdqPzkTk8qyaZkx9fdYfeQHNk8kyrub8estUIqNHgu5eDDq_w=w2316-h1344)
 }
 .slider .slider-ul .slider-ul-li:nth-of-type(3) {
-    background-image: url(http://static.panoramio.com/photos/large/73806083.jpg)
+    background-image: url(https://lh3.googleusercontent.com/uJa44rPsWiaMb1slohYKTUkOd5qwq6EeWIny5pQXtLFSFnE8U2mcQrAg01akHZ8ffZBGRUKTDtfQ3to=w2316-h1344)
 }
 .slider .slider-ul .slider-ul-li:nth-of-type(4) {
-    background-image: url(http://www.siammotors.com/uploads/gallery/17/1456298185.jpg)
+    background-image: url(https://lh4.googleusercontent.com/QEvKD_L0vMw-aVeMB9pbw5141UKXpmDS4k30RXuh50zeGC5-EwN6PluSCFyVG2yokn_MI_PQEmeRFzM=w2316-h1344)
 }
 .slider .slider-ul .slider-ul-li:nth-of-type(5) {
-    background-image: url(http://www.siammotors.com/uploads/gallery/17/1456298199.jpg)
+    background-image: url(https://lh5.googleusercontent.com/_-Vh5hvF_1xI-kNcSSr52sSVDVscd2Gj5Zi882Q-iLAAGbrqpBwFN12RkVik_YNfUz7-gffkqFa53jE=w2316-h1344)
 }
 .slider .slider-ol {
     position: absolute;
@@ -229,26 +229,26 @@ ul, ol {
 /* Text box */
 
 body .ui {
-  width: 900px;
+  width: 70%;
+  float: center;
   margin: 0 auto;
   margin-top: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  box-shadow: none;
 }
 body .ui ul {
   margin: 0px 30px 10px 0px;
   padding: 0;
   list-style-type: none;
   font-size: 11px;
-  font-weight: 400;
-  line-height: 20px;
+  font-weight: 100%;
+  line-height: 100%;
 }
 body .ui .drop {
   z-index: -3;
   opacity: 0;
-  width: 240px;
-  height: 20px;
+  width: 60%;
+  height: 60%;
   background: #3e8368;
   position: absolute;
   color: white;
@@ -263,8 +263,8 @@ body .ui .drop p {
   color: #f8fbfa;
 }
 body .ui_box {
-  width: 300px;
-  height:450px;
+  width: 100%;
+  height:70%;
   position: relative;
   background: #3d3d3d;
   float: left;
@@ -293,12 +293,12 @@ body .ui_box h2 {
   margin: 0px 0px 0px 0px;
 }
 body .ui_box p {
-  font-size: 12px;
+  font-size: 15px;
   color: #b6b6b6;
   text-align: center;
-  font-weight: 230;
-  width: 240px;
-  margin: 0px 0px 0px 0px;
+  font-weight: 230px;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
 }
 body .ui_box:hover {
   background: #B22222;
@@ -321,8 +321,13 @@ body .ui_box:hover {
 .stat_left {
   float: left;
 }
-.galleryBox {
-    width: 100%;
-    height: auto;
+.map{
+  height:100%;
+  float:left;
+  width:95%;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
 }
+  
 /* End Text box */

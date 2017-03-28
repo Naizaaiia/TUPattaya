@@ -1,0 +1,20 @@
+.departmenteng1{
+	height:15%;
+	float:left;
+	width:70%;
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+}
+.departmenteng2{
+	height:32%;
+	float:left;
+	width:95%;
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+}
+.galleryBox {
+    width: 160px;
+    height: auto;
+}
