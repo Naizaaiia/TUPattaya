@@ -97,10 +97,6 @@ a:hover
   padding-bottom: 2px;
 }
 
-li {
-  float: right;
-}
-
 li a, .dropbtn {
     display: inline-block;
     color:black;
@@ -112,8 +108,8 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
+    float: right;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
