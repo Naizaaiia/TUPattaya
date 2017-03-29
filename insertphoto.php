@@ -8,7 +8,7 @@ if(isset($_POST["submit"])) {
     $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
     if($check !== false) {
         echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
+        $uploadOk = 10;
     } else {
         echo "File is not an image.";
         $uploadOk = 0;
@@ -43,9 +43,9 @@ if ($uploadOk == 0) {
 			echo "คุณยังไม่ได้กรอกเนื้อเรื่องครับ";
 		} else {
 			include("connect.php");
-			$check_log = mysqli_query($con, "INSERT INTO insertphoto (Header, Story, Image) VALUES ('$Header', '$Story', '$target_file')");
+			$check_log = mysqli_query($con, "INSERT INTO adminstrativeboardeng (Header, Story, Image) VALUES ('$Header', '$Story', '$target_file')");
 			echo "News Uploaded!!!";
-			echo "<meta http-equiv='refresh' content='1;URL=add.html'>";
+			echo "<meta http-equiv='refresh' content='1;URL=AdminstrativeBoardEN.php'>";
 		}
     } else {
         echo "Sorry, there was an error uploading your file.";
